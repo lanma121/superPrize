@@ -1,0 +1,10 @@
+
+main:
+    host: 192.168.5.3
+    port: 3306
+    pw: xabaili123 
+    user: xabaili
+    db: xabaili
+    charset : utf8
+    cTimeout : 5
+

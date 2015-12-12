@@ -1,0 +1,27 @@
+
+sample:
+    ip: 127.0.0.1
+    port: 12306
+    conn_timeout: 1000
+    read_timeout: 3000
+    topic: sample
+compute:
+    ip: 127.0.0.1
+    port: 12306
+    conn_timeout: 1000
+    read_timeout: 3000
+    topic: compute
+id:
+    ip: 127.0.0.1
+    port: 12306
+    conn_timeout: 1000
+    read_timeout: 3000
+    topic: id
+
+image:
+    ip: 127.0.0.1
+    port: 12301
+    conn_timeout: 1000
+    read_timeout: 10000
+    topic: image
+

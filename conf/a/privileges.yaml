@@ -1,0 +1,39 @@
+
+prize:
+    1:
+        name: 奖品管理
+        process: 
+        children:
+            1:
+                name: 奖品分类
+                process: "/a/prize/group"
+            2:
+                name: 奖品列表
+                process: "/a/prize/list"
+    2:
+        name: 抽奖管理
+        process: 
+        children:
+            1:
+                name: 抽奖用户
+                process: "/a/prize/draw"
+            2:
+                name: 中奖用户
+                process: "/a/prize/win"
+            3:
+                name: 及时快报
+                process: "/a/prize/news"
+    3:
+        name: 消费管理
+        process: 
+        children:
+            1:
+                name: 抽奖记录
+                process: "/a/prize/record"
+    4:
+        name: 游戏管理
+        process: 
+        children:
+            1:
+                name: 游戏规则
+                process: "/a/prize/rule"               

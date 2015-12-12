@@ -1,0 +1,10 @@
+log.txt
+*.log
+*.bak
+*.txt
+/.idea
+/.project
+/.settings
+log/
+app/
+data/

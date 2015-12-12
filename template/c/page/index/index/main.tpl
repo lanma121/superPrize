@@ -134,20 +134,20 @@
 <!-- jQuery Mobile 表格 -->
 <div data-role="page" id="pageone">
 	<div data-role="header">
-		<h1>回流表格</h1>
+		<h1>列切换</h1>
 	</div>
 	<div data-role="main" class="ui-content">
-		<p>回流模型表格在屏幕尺寸足够大时是水平显示，而在屏幕尺寸达到足够小时，所有的数据会变成垂直显示。</p>
-		<p>重置窗口大小查看效果：</p>
-		<table data-role="table" class="ui-responsive">
+		<p>列切换模型会在宽度不够时隐藏数据。</p>
+		<h4>慢慢重置窗口大小。你会发现表格中的列会根据窗口的大小自动隐藏列。</h4>
+		<table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">
 			<thead>
 				<tr>
-					<th>CustomerID</th>
-					<th>CustomerName</th>
-		          	<th>ContactName</th>
-		          	<th>Address</th>
-		          	<th>City</th>
-	          		<th>PostalCode</th>
+					<th data-priority="6">CustomerID</th>
+					<th data-priority="1">CustomerName</th>
+		          	<th data-priority="2">ContactName</th>
+		          	<th data-priority="3">Address</th>
+		          	<th data-priority="4">City</th>
+	          		<th data-priority="5">PostalCode</th>
 		          	<th>Country</th>
 				</tr>
 			</thead>

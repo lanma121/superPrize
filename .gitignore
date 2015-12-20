@@ -6,7 +6,6 @@ log.txt
 /.project
 /.settings
 log/*
-app/
 data/
 template/
 webroot/*

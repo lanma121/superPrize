@@ -5,6 +5,9 @@ log.txt
 /.idea
 /.project
 /.settings
-log/
+log/*
 app/
 data/
+template/
+webroot/*
+tmp/

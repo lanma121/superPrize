@@ -1,0 +1,13 @@
+passport:
+    key: cus736
+    cookie: _BLSS
+    
+link:
+    url: http://www.gc.cx/points/server.php   
+    
+search:
+    access: xxxxx
+    secret: xxxxx
+    host: http://opensearch-cn-hangzhou.aliyuncs.com 
+    type: aliyun        
+
